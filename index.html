@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A semantic HTML5 page demonstrating accessibility and SEO best practices">
+    <title>Semantic HTML5 Page</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>Website Title</h1>
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <article>
+            <h2>Article Heading</h2>
+            <section aria-labelledby="section1">
+                <h3 id="section1">Section 1</h3>
+                <p>Content for section 1...</p>
+            </section>
+            <section aria-labelledby="section2">
+                <h3 id="section2">Section 2</h3>
+                <p>Content for section 2...</p>
+            </section>
+        </article>
+
+        <aside role="complementary" aria-label="Related information">
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">Related article 1</a></li>
+                <li><a href="#">Related article 2</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
